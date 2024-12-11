@@ -30,7 +30,7 @@ playlist_channels = pickle.load(open("playlist_channels.pickle", "rb"))
 cosine_sim = pickle.load(open("cosine_sim.pickle", "rb"))
 
 st.set_page_config(layout="wide")
-st.header("Playlist Recommandation System")
+st.header("Playlist Recommendation System")
 
 # movie_list = movies["title"].values
 playlist_channel_list = list(playlist_channels)
